@@ -10,7 +10,7 @@ If “_prompt engineering_” is your Katana, these nodes are the enchanted rune
 * **Layer‑aware conditioning** – target _specific_ Flux blocks (encoder, base, decoder, out) with per‑layer multipliers  
 * **Blend, add, or spatially concat** two completely different prompt stacks without losing context  
 * **Built‑in sanity checks & tensor normalization** so you stop exploding your VRAM (and your temperament)  
-* **Verbose summaries** pushed back to the ComfyUI front‑end via `PromptServer` – know exactly what each node did in plain English (and a dash of snark)  
+* **Verbose summaries** pushed back to the ComfyUI front‑end via `PromptServer` – know exactly what each node did in plain English
 * Designed for **advanced LoRA / CLIP‑T5 workflows** where you juggle dozens of conditioning tensors like a caffeinated circus act
 
 _Node list and micro‑pitch below was auto‑extracted from the source 📜_ :contentReference[oaicite:0]{index=0}
@@ -42,7 +42,7 @@ git clone https://github.com/YourUsername/tenos-flux-conditioning-nodes.git \
 > * PyTorch 2.1+ (CUDA or ROCm)
 > * ComfyUI (latest main branch)
 > * A model/scheduler that actually uses Flux blocks (e.g. *FluxDev* or similar)
-
+```
 ---
 
 ## 🚦 Quick‑Start
@@ -52,7 +52,7 @@ git clone https://github.com/YourUsername/tenos-flux-conditioning-nodes.git \
 3. Dial in block multipliers (e.g. `encoder = 0.8`, `base = 1.2`, etc.).
 4. Feed the output straight into your Flux‑compatible sampler.
 5. Profit.
-```
+
 ### Example flow (pseudo‑graph)
 
 ```
