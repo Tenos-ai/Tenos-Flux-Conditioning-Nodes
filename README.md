@@ -52,7 +52,7 @@ git clone https://github.com/YourUsername/tenos-flux-conditioning-nodes.git \
 3. Dial in block multipliers (e.g. `encoder = 0.8`, `base = 1.2`, etc.).
 4. Feed the output straight into your Flux‑compatible sampler.
 5. Profit.
-
+```
 ### Example flow (pseudo‑graph)
 
 ```
