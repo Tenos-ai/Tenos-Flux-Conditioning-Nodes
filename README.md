@@ -13,7 +13,7 @@ If “_prompt engineering_” is your Katana, these nodes are the enchanted rune
 * **Verbose summaries** pushed back to the ComfyUI front‑end via `PromptServer` – know exactly what each node did in plain English
 * Designed for **advanced LoRA / CLIP‑T5 workflows** where you juggle dozens of conditioning tensors like a caffeinated circus act
 
-_Node list and micro‑pitch below was auto‑extracted from the source 📜_ :contentReference[oaicite:0]{index=0}
+_Node list and micro‑pitch below was auto‑extracted from the source 📜_
 
 | Node | I/O | Elevator Pitch |
 |------|-----|---------------|
